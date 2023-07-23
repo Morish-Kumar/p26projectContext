@@ -8,6 +8,7 @@ import FavoritesPage from './containers/Favorites';
 const App = props => {
   return (
     <React.Fragment>
+      <button>confirm</button>
       <Navigation />
       <main>
         <Route path="/" component={ProductsPage} exact />
